@@ -17,7 +17,7 @@
     "build": "npm-run-all --sequential css build-static",
     "start": "node server",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "pub": "git subtree push --prefix=public/ blog master"
+    "deploy": "git subtree push --prefix=public/ blog master"
   },
   "repository": {
     "type": "git",
